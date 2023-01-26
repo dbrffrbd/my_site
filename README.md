@@ -1,2 +1,2 @@
-# my_site
+# worthsite
 Проект по ИПС
