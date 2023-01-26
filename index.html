@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Worth</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <script src="scripts/jquery-3.6.3.min.js"></script>
+</head>
+
+<body>
+    <div class="top_block_wrapper top">
+        <header class="header">
+            <div class="header__burger-menu burger-menu">
+                <div class="burger-menu__bar burger-menu__top-bar"></div>
+                <div class="burger-menu__bar burger-menu__center-bar"></div>
+                <div class="burger-menu__bar burger-menu__buttom-bar"></div>
+            </div>
+            <img src="images/logo_Worth.svg" alt="Логотип WORTH" class="header__logo">
+            <nav class="header__menu menu">
+                <a data-goto=".photo-cards" class="menu__item menu__item_active" href="#">Проекты</a>
+                <a data-goto=".reviews" class="menu__item" href="#">Отзывы</a>
+                <a data-goto=".services" class="menu__item" href="#">Услуги</a>
+                <a data-goto=".command" class="menu__item" href="#">Компания</a>
+                <a data-goto=".social-network__contact" class="menu__item" href="#">Контакты</a>
+            </nav>
+        </header>
+        <div class="top__title">
+            <h1 class="top__main-title">Мы — дизайн-агентство WORTH. Помогаем клиентам решать задачи <br> в области
+                визуальных коммуникаций. Создаём айдентику, сайты, логотипы, книги, оформляем выставки.</h1>
+        </div>
+    </div>
+    <div class="main-content content">
+        <div class="content__photo-cards photo-cards">
+            <div class="photo-cards__first-card first-card">
+                <img class="first-card__image" src="./images/brain_opening.jpg" alt="Открытие мозга">
+                <p class="photo-cards__title">“Открытие мозга”</p>
+            </div>
+            <div class="photo-cards__second-card second-card">
+                <img class="second-card__image" src="./images/logistic_navigation.jpg" alt="Логическая навигация">
+                <p class="photo-cards__title">Логистическая навигация</p>
+            </div>
+            <div class="photo-cards__third-card third-card">
+                <img class="third-card__image" src="./images/design_project.jpg" alt="Дизайн-проект Афиши города">
+                <p class="photo-cards__title">Дизайн-проект “Афиши города”</p>
+            </div>
+            <div class="photo-cards__fourth-card fourth-card">
+                <img class="fourth-card__image" src="./images/commertical_catalog.jpg" alt="Коммерческий каталог">
+                <p class="photo-cards__title photo-cards__commertical">Коммерческий каталог
+                    Mad Sounds</p>
+            </div>
+            <div class="photo-cards__fifth-card fifth-card">
+                <img class="fifth-card__image" src="./images/installation.jpg" alt="Инсталяция Дом мод">
+                <p class="photo-cards__title">Инсталляция “Дом мод”</p>
+            </div>
+            <div class="photo-cards__sixth-card sixth-card">
+                <img class="sixth-card__image" src="./images/logo_ice_company.jpg"
+                    alt="Логотип для торгового бренда морженного Ice Company">
+                <p class="photo-cards__title photo-cards__title-logo">Логотип для торгового бренда мороженого «Ice
+                    Company»
+                </p>
+            </div>
+            <div class="photo-cards__seventh-card seventh-card">
+                <img class="seventh-card__image" src="./images/book.jpg" alt="Книга Музейный век">
+                <p class="photo-cards__title photo-cards__title-book">Книга “Музейный век”</p>
+            </div>
+            <div class="photo-cards__eighth-card eighth-card">
+                <img class="eighth-card__image" src="./images/collection_visual_identification.jpg"
+                    alt="Коллекция - визуальная идентификация для выставки образования 2019.">
+                <p class="photo-cards__title photo-cards__collection">Коллекция - визуальная идентификация для выставки
+                    образования 2019.
+                </p>
+            </div>
+        </div>
+        <div class="content__video-block video-block">
+            <p class="video-block__text">В проектах мы применяем мультидисциплинарный подход, основанный на синергии
+                стратегии, брендинга, дизайна и цифровых технологи</p>
+            <div class="video-block__video video">
+                <div class="main-video">
+                    <img src="./images/boy_in_a_cap.jpg" alt="Картинка видео" class="video__image-background">
+                    <div id="player" class="player"></div>
+                    <div class="video__image">
+                        <span class="video__button" data-id="player" data-video="M7lc1UVf-VE"></span>
+                    </div>
+                </div>
+            </div>
+            <p class="video-block__text">Клиенты. Мы гордимся работой с компаниями, которые задают правила игры на своих
+                рынках.</p>
+            <div class="video-block__clients clients">
+                <img src="./images/airbnb_logo.png" alt="Логотип Airbnb" class="clients__logo clients__logo-airbnb">
+                <img src="./images/amazon_logo.png" alt="Логотип Amazon" class="clients__logo clients__logo-amazon">
+                <img src="./images/fedex_logo.png" alt="Логотип FedEx" class="clients__logo">
+                <img src="./images/microsoft_logo.png" alt="Логотип Microsoft" class="clients__logo">
+                <img src="./images/google_logo.png" alt="Логотип Google" class="clients__logo">
+                <img src="./images/ola_logo.png" alt="Логотип OLA" class="clients__logo">
+                <img src="./images/walmart_logo.png" alt="Логотип Walmart" class="clients__logo clients__logo-walmart">
+                <img src="./images/oyo_logo.png" alt="Логотип OYO" class="clients__logo">
+            </div>
+        </div>
+        <div class="content__numbers numbers">
+            <div class="numbers__container">
+                <p class="numbers__number">15</p>
+                <p class="numbers__text">Лет успешной работы</p>
+            </div>
+            <div class="numbers__container">
+                <p class="numbers__number">500+</p>
+                <p class="numbers__text">Реализованных проектов</p>
+            </div>
+            <div class="numbers__container">
+                <p class="numbers__number">76</p>
+                <p class="numbers__text">Человек в команде</p>
+            </div>
+        </div>
+        <div class="content__about-company about-company">
+            <div class="about-company__services services">
+                <h2 class="services__main-title">Услуги</h2>
+                <div class="services__card card services__branding">
+                    <p class="card__title">Branding</p>
+                    <ul class="card__text">
+                        <li>Логотипы/Айдентика</li>
+                        <li>Навигация</li>
+                        <li>Дизайн поддержка</li>
+                        <li>Рекламные компании</li>
+                    </ul>
+                </div>
+                <div class="services__card card services__web">
+                    <p class="card__title">Web/Mobile</p>
+                    <ul class="card__text">
+                        <li>UI/UX</li>
+                        <li>Исследования и аналитика</li>
+                        <li>Программная разработка</li>
+                        <li>Техническая поддержка</li>
+                    </ul>
+                </div>
+                <div class="services__card card services__editional">
+                    <p class="card__title">Editorial</p>
+                    <ul class="card__text">
+                        <li>Дизайн/Верстка</li>
+                        <li>Редактура</li>
+                        <li>Корректура</li>
+                        <li>Издательская поддержка</li>
+                        <li>Фотосессии</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-company__command command">
+                <h2 class="command__main-title">Команда</h2>
+                <div class="command__blocks">
+                    <div class="command__photo-block photo-block">
+                        <img src="./images/mikhail.jpg" alt="Михаил Устинов" class="photo-block__photo">
+                        <p class="photo-block__name">Михаил Устинов</p>
+                        <p class="photo-block__job-position">Арт-директор</p>
+                    </div>
+                    <div class="command__photo-block photo-block">
+                        <img src="./images/anton.jpg" alt="Антон Хрусталев" class="photo-block__photo">
+                        <p class="photo-block__name">Антон Хрусталев</p>
+                        <p class="photo-block__job-position">Партнер</p>
+                    </div>
+                    <div class="command__photo-block photo-block">
+                        <img src="./images/alexander.jpg" alt="Александр  Павлов" class="photo-block__photo">
+                        <p class="photo-block__name">Александр Павлов</p>
+                        <p class="photo-block__job-position">Партнер</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-company__braining braining">
+                <h2 class="braining__main-title">Branding. Мы создаем стратегии для запуска и продвижения брендов,
+                    изобретаем инновационные системы идентификации и реализуем коммуникационные кампании,
+                    развивающие
+                    бренд. </h2>
+                <div class="photo-brainings__blocks">
+                    <div class="braining__photo-block photo-block">
+                        <img src="./images/decision_cards.jpg" alt="Карточки принятие решений"
+                            class="photo-block__photo">
+                        <p class="photo-block__name">Карточки “Принятие решений”</p>
+                        <p class="photo-block__discription">Нашей задачей было обновить логотип и фирменный стиль,
+                            создать удобную и понятную систему его использования, которая объединит всю визуальную
+                            коммуникацию бренда. </p>
+                    </div>
+                    <div class="command__photo-block photo-block">
+                        <img src="./images/new_museum_style.jpg" alt="Стиль для нового музея"
+                            class="photo-block__photo">
+                        <p class="photo-block__name">Стиль для нового музея</p>
+                        <p class="photo-block__discription">Была разработана и систематизирована вся визуальная
+                            коммуникация Ribatejo. Теперь минимумом средств бренд может достигать максимум
+                            информативности и узнаваемости,</p>
+                    </div>
+                    <div class="command__photo-block photo-block">
+                        <img src="./images/art_space.jpg" alt="Брендинг арт-пространства" class="photo-block__photo">
+                        <p class="photo-block__name">Брендинг арт-пространства</p>
+                        <p class="photo-block__discription">Стиль арт-пространства, фотографий и роликов строился на
+                            стратегии, подготовленной экспертами Signal, главная идея которой — мечты должны быть
+                            достижимы.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-company__reviews reviews">
+                <h2 class="reviews__main-title">Отзывы</h2>
+                <div class="reviews__reviews-cards reviews-cards">
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Простые решения</p>
+                            <p class="review__text">Ребята быстро нашли решение сложной задачи - локализовать кампанию,
+                                сделать интересной для русскоязычной аудитории</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/pirojkov.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Артур Пирожков</div>
+                            <div class="person__text">Руководитель отдела рекламы и PR «Red»</div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Громкие концепции</p>
+                            <p class="review__text">Проведенный анализ аудиотрии, позволил нам лучше понять особенности
+                                нашего клиента, что сильно повлияло на стратегию развития продукта в целом.</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/kugravcev.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Андрей Кудрявцев</div>
+                            <div class="person__text">Директор компании «Olla»</div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Высокий сервис</p>
+                            <p class="review__text">По ходу работы, у нас несколько раз менялсь требования, но агентство
+                                отнеслось с пониманием. В итоге, продуктивное сотрудничество и 100% попадание в
+                                ожидаемый результат.</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/yujny.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Миша Южный</div>
+                            <div class="person__text">Заместитель генерального директора ОАО «Вента»</div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Простые решения</p>
+                            <p class="review__text">Ребята быстро нашли решение сложной задачи - локализовать кампанию,
+                                сделать интересной для русскоязычной аудитории</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/pirojkov.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Артур Пирожков</div>
+                            <div class="person__text">Руководитель отдела рекламы и PR «Red»</div>
+                        </div>
+                    </div>
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Громкие концепции</p>
+                            <p class="review__text">Проведенный анализ аудиотрии, позволил нам лучше понять особенности
+                                нашего клиента, что сильно повлияло на стратегию развития продукта в целом.</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/kugravcev.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Андрей Кудрявцев</div>
+                            <div class="person__text">Директор компании «Olla»</div>
+                        </div>
+                    </div>
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Высокий сервис</p>
+                            <p class="review__text">По ходу работы, у нас несколько раз менялсь требования, но агентство
+                                отнеслось с пониманием. В итоге, продуктивное сотрудничество и 100% попадание в
+                                ожидаемый результат.</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/yujny.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Миша Южный</div>
+                            <div class="person__text">Заместитель генерального директора ОАО «Вента»</div>
+                        </div>
+                    </div>
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Простые решения</p>
+                            <p class="review__text">Ребята быстро нашли решение сложной задачи - локализовать кампанию,
+                                сделать интересной для русскоязычной аудитории</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/pirojkov.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Артур Пирожков</div>
+                            <div class="person__text">Руководитель отдела рекламы и PR «Red»</div>
+                        </div>
+                    </div>
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Громкие концепции</p>
+                            <p class="review__text">Проведенный анализ аудиотрии, позволил нам лучше понять особенности
+                                нашего клиента, что сильно повлияло на стратегию развития продукта в целом.</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/kugravcev.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Андрей Кудрявцев</div>
+                            <div class="person__text">Директор компании «Olla»</div>
+                        </div>
+                    </div>
+                    <div class="reviews-cards__review-block review-block">
+                        <div class="review-block__review review">
+                            <p class="review__title">Высокий сервис</p>
+                            <p class="review__text">По ходу работы, у нас несколько раз менялсь требования, но агентство
+                                отнеслось с пониманием. В итоге, продуктивное сотрудничество и 100% попадание в
+                                ожидаемый результат.</p>
+                        </div>
+                        <div class="review-block__person person">
+                            <img src="./images/yujny.png" alt="Артур Пирожков" class="person__photo">
+                            <div class="person__title">Миша Южный</div>
+                            <div class="person__text">Заместитель генерального директора ОАО «Вента»</div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="review-block__control">
+                    <li class="review-block__prev"></li>
+                    <li class="review-block__next"></li>
+                </ul>
+            </div>
+
+            <div class="about-company__services-button services-button">
+                <h2 class="services-button__main-title">Услуги</h2>
+                <div class="services-button__block">
+                    <div class="services-button__first-block first-block services-button__general-consultation">
+                        <p class="first-block__title">Общая консультация</p>
+                        <p class="first-block__text">Обсудим ваши вопросы по основам визуальной коммуникации и
+                            развития бренда.</p>
+                        <a class="first-block__link" href="#">Заказать</a>
+                    </div>
+                    <div class="services-button__first-block first-block  services-button__design-solution">
+                        <p class="first-block__title">Дизайн-решение</p>
+                        <p class="first-block__text">Подготовим полноценное <br> дизайн-решение с нуля и поможем
+                            запустить
+                            его в
+                            диджитал.</p>
+                        <a class="first-block__link" href="#">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__social-network social-network">
+            <img src="images/logo_Worth.svg" alt="Логотип WORTH" class="social-network__company-logo">
+            <p class="social-network__text">Дизайн-агентстов визуальных коммуникаций.</p>
+            <div class="social-network__icons">
+                <a class="social-network__instagram" href="https://www.instagram.com/"></a>
+                <a class="social-network__dribble" href="https://dribbble.com/"></a>
+                <a class="social-network__twitter" href="https://twitter.com/"></a>
+                <a class="social-network__youtube" href="https://www.youtube.com/"></a>
+            </div>
+        </div>
+        <div class="social-network__info">
+            <p class="social-network__title">Информация</p>
+            <ul>
+                <li>
+                    <a class="social-network__link" href="#">Портфолио</a>
+                </li>
+                <li>
+                    <a class="social-network__link" href="#">Блог</a>
+                </li>
+                <li>
+                    <a class="social-network__link" href="#">О нас</a>
+                </li>
+                <li>
+                    <a class="social-network__link" href="#">Пресса</a>
+                </li>
+                <ul>
+        </div>
+        <div class="social-network__servise">
+            <p class="social-network__title" href="#">Сервис</p>
+            <ul>
+                <li>
+                    <a class="social-network__link" href="#">UX/UI Design</a>
+                </li>
+                <li>
+                    <a class="social-network__link" href="#">App Development</a>
+                </li>
+                <li>
+                    <a class="social-network__link" href="#">Web Development</a>
+                </li>
+                <li>
+                    <a class="social-network__link" href="#">Quality Assurance</a>
+                </li>
+        </div>
+        <div class="social-network__contact">
+            <p class="social-network__title" href="#">Контакты</p>
+            <div class="social-network__contact-email contact-email">
+                <span class="contact-email__icon"></span>
+                <a class="social-network__link" href="#">hello@landify.com</a>
+            </div>
+            <div class="social-network__contact-telephone contact-telephone">
+                <span class="contact-telephone__icon"></span>
+                <a class="social-network__link" href="#">+91 98765 43210</a>
+            </div>
+            <div class="social-network__contact-address contact-address">
+                <span class="contact-address__icon"></span>
+                <a class="social-network__link" href="#">772 Lyonwood Ave
+                    Walnut, CA 91789</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
